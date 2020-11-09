@@ -1,0 +1,691 @@
+.hero-container {
+  background: url(https://www.ncu.edu/sites/default/files/commencement_hero.jpg);
+  height: 700px;
+  margin-top: -2%;
+}
+
+p.hero-num {
+  font-size: 96px;
+  transform: translateY(50%);
+  color: #fa9a1f;
+  font-family: Liana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+p.hero-title {
+  font-size: 97px;
+  color: #fff;
+  font-family: Liana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+p.hero-text {
+  font-size: 19px;
+  transform: translateY(-30px);
+  color: #fff;
+}
+
+.play-video {
+  padding: 20px 45px 20px 45px;
+}
+
+.grad-info {
+  padding: 20px 45px 20px 45px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+.play-video {
+  padding: 20px 45px 20px 45px;
+  background: #fa9a1f;
+  text-align: center;
+  color: #32071a;
+  font-weight: 700;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.grad-info {
+  padding: 20px 45px 20px 45px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+.grad-info:hover,
+.play-video:hover {
+  cursor: pointer;
+}
+
+.play-video:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+.grad-info:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+.grad-info a {
+  color: #fff;
+}
+
+.play-video a:hover {
+  text-decoration: none;
+}
+
+.grad-info a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-title {
+    font-size: 30px;
+  }
+}
+
+h1#page-title,
+.breadcrumb-wrap {
+  display: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.accordion-content {
+  background-color: #eee;
+  color: #32071a;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 17px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 8px;
+}
+
+.active,
+.accordion-content:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-content:after {
+  content: "\002B";
+  font-size: 17px;
+  color: #32071a;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion-content.active:after {
+  content: "\002D";
+  font-size: 17px;
+}
+
+.sub-menu {
+  padding: 0 0 15px 0;
+  text-align: center;
+  background-color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 500%;
+  margin-left: -50%;
+  padding-left: 50%;
+  position: sticky;
+  top: 68px;
+  box-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1050px) {
+  .sub-menu {
+    display: none;
+  }
+}
+
+h2.reg-policies {
+  display: block;
+}
+
+.accordion-content:focus {
+  border: 1px solid #ddd;
+}
+
+.button {
+  color: #32071a;
+  background: #fa9a1f;
+  font-weight: 700;
+  margin: 10px 20px 50px 0;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #fff;
+  background: #32071a;
+}
+
+iframe {
+  display: block;
+}
+
+.hero-ban {
+  background-image: url(https://www.ncu.edu/sites/default/files/concordia_hero.jpg);
+  background-size: auto;
+  margin: auto;
+  height: 300px;
+  background-color: #dedede;
+  max-width: 100%;
+}
+
+#timer {
+  color: #32071a;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.timer-text {
+  color: #32071a;
+  font-size: 20px;
+  text-align: center;
+}
+
+a.menu-link {
+  text-decoration: none !important;
+  font-size: 17px;
+  display: inline-block;
+  float: right;
+  padding: 0 26px 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-ban {
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.region-pre-footer {
+  display: none;
+}
+
+.vid-wrapper {
+  max-width: 50%;
+}
+
+.callout-wrapper {
+  background-color: #32071a;
+  padding: 20px 20px 5px 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.callout-wrapper a {
+  color: #ffa400;
+}
+
+.callout-title {
+  color: #fa9a1f;
+}
+
+.sub-menu-list p {
+  margin: 15px 140px;
+}
+
+button#acc-red {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+  .alumni-perks {
+    margin-top: 40px !important;
+    height: auto !important;
+  }
+  .grad-events {
+    text-align: center;
+  }
+  img.commencement-image {
+    margin-bottom: 15px !important;
+  }
+  .button.events-button,
+  .perks-button {
+    margin: auto !important;
+    margin-bottom: 35px !important;
+  }
+  .columns.large-6.list-container {
+    height: auto !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  .quote-inner {
+    padding: 30px;
+    text-align: left !important;
+  }
+  .hero-container {
+    text-align: center;
+  }
+  p.hero-title {
+    font-size: 50px !important;
+    transform: translateY(15%) !important;
+  }
+  p.hero-num {
+    font-size: 70px;
+  }
+  p.hero-text {
+    font-size: 18px;
+    transform: translateY(0%) !important;
+  }
+  .hero-container {
+    text-align: center;
+    height: auto;
+    padding-bottom: 75px;
+  }
+  img.commencement-image {
+    margin-bottom: 15px !important;
+  }
+  .quotes {
+    transform: translateY(55%) !important;
+    margin-top: -48% !important;
+    margin-bottom: 23%;
+  }
+  .grad-info {
+    padding: 20px 25px 20px 25px;
+    font-size: 14px;
+  }
+  .play-video {
+    padding: 20px 25px 20px 25px;
+  }
+  .awards {
+    margin-top: 40% !important;
+    margin-bottom: 5%;
+  }
+  .awards-slides {
+    height: auto !important;
+  }
+  .list-inner {
+    padding: 10px !important;
+  }
+  .grad-slide {
+    margin-bottom: -40px;
+  }
+  .event-slide {
+    padding: 30px 0 0 0;
+  }
+  .previous-title {
+    margin-top: 10%;
+  }
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  z-index: 3;
+  height: 50px;
+  width: 24px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 10px !important;
+  top: 50%;
+  margin-top: -25px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.events-title,
+.previous-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  margin-top: 2%;
+  padding-top: 4%;
+}
+
+.grad-slide,
+.event-slide {
+  padding: 30px 30px 0 30px;
+}
+
+.event-slide {
+  text-align: center;
+}
+
+.button.events-button,
+.perks-button {
+  padding: 18px 50px 18px 50px;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: -27px;
+  content: "•";
+  width: 23px;
+  height: 22px;
+  font-family: "slick";
+  font-size: 24px;
+  line-height: 20px;
+  color: #efefef;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #32071a;
+  opacity: 1;
+}
+
+.virtual-title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.virtual-wrap {
+  text-align: center;
+}
+
+div#block-block-194 {
+  background-color: #efefef;
+  height: auto;
+  overflow: visible;
+  margin-top: 3%;
+}
+
+img.background-text {
+  margin: -7% 0 -6% 0%;
+}
+
+.image-container {
+  text-align: center;
+}
+
+h3.title-sub {
+  padding: 0 25px 0 25px;
+}
+
+img.commencement-image.program {
+  width: 18%;
+}
+
+img.commencement-image {
+  width: 30%;
+}
+
+.quote-slides {
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 28px;
+  transform: translate(-4%, 10px);
+  box-shadow: 0 0 16px -12px rgba(0, 0, 0, 0.61);
+  margin-bottom: 1%;
+}
+
+.quote-inner {
+  padding: 30px;
+  text-align: center;
+}
+
+.quote-slides img {
+  float: right;
+  width: 24%;
+}
+
+.quote-inner h4 {
+  border-bottom: 3px solid #fa9a1f;
+  margin-top: 11%;
+  text-align: text;
+  padding: 5px 5px 5px 5px;
+  font-size: 21px;
+}
+
+p.quote-text {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.quotes {
+  transform: translateY(63%);
+  margin-top: -12%;
+}
+
+li.tropy-list {
+  list-style: circle !important;
+}
+
+.list-inner {
+  padding: 50px;
+}
+
+.commencement-list {
+  margin-top: 5%;
+}
+
+.list-inner img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+.list-inner h2 {
+  text-align: center;
+}
+
+div#block-block-197 {
+  background-color: #efefef;
+}
+
+.columns.large-6.list-container {
+  height: 625px;
+  background-color: #fff;
+  margin: 0 -1% 0 -1%;
+  margin-bottom: 5%;
+}
+
+.list-inner li {
+  line-height: 2.2;
+}
+
+li.r-tabs-tab {
+  padding: 15px 50px 15px 50px;
+  background-color: #efefef;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px 8px 0 0;
+}
+
+div#commencementTabs {
+  margin-top: 5%;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+  display: block;
+  background-color: #efefef;
+  border-top: 5px solid #32071a;
+  padding: 35px;
+  min-height: auto !important;
+  border-radius: 0 0 8px 8px;
+}
+
+li.r-tabs-tab.r-tabs-state-active a {
+  color: #fff;
+}
+
+li.r-tabs-tab.r-tabs-state-active {
+  background-color: #32071a;
+}
+
+a.r-tabs-anchor:hover {
+  text-decoration: none;
+}
+
+.r-tabs-accordion-title.r-tabs-state-active {
+  background-color: #32071a;
+}
+
+.r-tabs-accordion-title.r-tabs-state-active a {
+  color: #fff;
+}
+
+.r-tabs-accordion-title {
+  padding: 20px;
+}
+
+li.r-tabs-tab::before {
+  display: none !important;
+}
+
+.r-tabs-accordion-title a {
+  font-weight: 700;
+}
+
+h2.faq {
+  text-align: center;
+  margin: 60px 40px 15px 40px;
+}
+
+.awards {
+  margin-top: 25%;
+}
+
+.awards-slides {
+  text-align: center;
+  background-color: #efefef;
+  margin-left: 28px;
+  transform: translate(-3%, 10px);
+  margin-top: 75px;
+  height: 525px;
+  margin-bottom: 50px;
+}
+
+.awards-inner {
+  padding: 50px;
+}
+
+.awards-inner img {
+  width: 22%;
+  padding-bottom: 3%;
+  margin: auto;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.accordion-content {
+  background-color: #eee;
+  color: #32071a;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 17px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.active,
+.accordion-content:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-content:after {
+  content: "\002B";
+  font-size: 17px;
+  color: #32071a;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion-content.active:after {
+  content: "\002D";
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 800px) {
+  .quotes {
+    transform: translateY(40%);
+    margin-top: -12%;
+  }
+  .awards {
+    margin-top: 35% !important;
+  }
+  .alumni-perks {
+    margin-top: 100px;
+    height: auto;
+    background-color: #fa9a1f;
+  }
+  .awards-slides {
+    height: auto !important;
+  }
+  .columns.large-6.list-container {
+    height: auto !important;
+  }
+}
+
+.region-content ul li::before,
+.region-content-below-2 ul li::before,
+.region-content-below-3 ul li::before,
+.cke_editable ul li::before {
+  display: none;
+}
+
+.be-ix-link-block {
+  background-color: #646464;
+  display: none;
+}
+
+.alumni-perks {
+  margin-top: 100px;
+  height: 200px;
+  background-color: #fa9a1f;
+}
+
+.perks-inner {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.perks-inner span {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #32071a;
+}
+
+.perks-button {
+  border: 1px solid #fff;
+  margin-top: 1%;
+}
